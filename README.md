@@ -1,0 +1,1 @@
+If your documents folder is a mess with a bunch of files and need organizing. Run this file as a batch extention and it will create folders in alphabetical order then move each file to each individual folder. 
