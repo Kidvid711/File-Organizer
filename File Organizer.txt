@@ -9,7 +9,7 @@ if %input%=yes goto organize
 if %input%=no goto end
 
 color 07
-echo invalid input please try again.
+echo Invalid input please try again.
 pause
 goto menu
 
@@ -17,7 +17,7 @@ goto menu
 :organize 
 color 0d
 pause
-echo convert file into a batch file extension in order for it to work. 
+echo Convert file into a batch file extension in order for it to work. 
 pause
 echo press any key to proceed organizing files. 
 pause
