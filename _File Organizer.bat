@@ -1,4 +1,6 @@
 @echo off
+Title _File Organizer
+
 :menu
 cls
 color 0d
@@ -16,8 +18,6 @@ goto menu
 
 :organize 
 color 0d
-pause
-echo Convert file into a batch file extension in order for it to work. 
 pause
 echo press any key to proceed organizing files. 
 pause
