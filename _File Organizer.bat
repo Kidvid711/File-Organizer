@@ -4,11 +4,11 @@ Title _File Organizer
 :menu
 cls
 color 0d
-set /p input=Place batch file into the current folder you wish to organize.This will organize all file types into folders 0-9, and A-Z. Do you wish to proceed? Yes or No?
-if %input%=Yes goto organize
-if %input%=No goto end
-if %input%=yes goto organize 
-if %input%=no goto end
+set /p input=Place batch into current folder you wish to organize.This will organize all files into folders 0-9, and A-Z. Do you wish to proceed? Yes or no?
+if %input%==Yes goto organize
+if %input%==No goto end
+if %input%==yes goto organize 
+if %input%==no goto end
 
 color 07
 echo Invalid input please try again.
